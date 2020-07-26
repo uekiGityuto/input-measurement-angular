@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: azure;
+}
+
+header {
+  height: 32px;
+  background-color: blue;
+}
+
+header p {
+  font-size: 21px;
+  color: white;
+  height: 32px;
+  margin: 0 0 0 16px;
+}

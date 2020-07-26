@@ -1,0 +1,19 @@
+div.content {
+  margin: 10px;
+}
+
+input {
+  background-color: aliceblue;
+}
+
+mat-form-field {
+  margin: 16 px;
+}
+
+button {
+  margin: 8px;
+}
+
+mat-card {
+  margin: 16px;
+}

@@ -1,0 +1,16 @@
+<div>
+  <p>あなたの得点は{{ score }}です。</p>
+  <h2>ランキング</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>順位</th>
+        <th>ポイント</th>
+      </tr>
+    </thead>
+    <tr *ngFor="let score of scores; index as i">
+      <td>{{ i + 1 }}位</td>
+      <td>{{ score }}</td>
+    </tr>
+  </table>
+</div>
